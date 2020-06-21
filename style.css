@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    height: 300px;
+    padding: 5px;
+    background-color: #ccc;
+    border: 1px solid black;
+}
+
+.item {
+    width: 200px;
+    padding: 5px;
+    background-color: red;
+    border: 1px solid black;
+}
